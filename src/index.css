@@ -1,0 +1,105 @@
+input {
+  width: 65px;
+  margin: 5px;
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border: 2px solid black;
+  margin: 0 auto;
+}
+
+td,
+th {
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.219);
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+body {
+  background-image: linear-gradient(
+    to right,
+    white,
+    rgb(201, 216, 221),
+    lightblue,
+    rgba(61, 61, 219, 0.829),
+    rgba(55, 55, 206, 0.87)
+  );
+}
+
+.calculate-button {
+  margin-top: 5px;
+  border-radius: 5px;
+  height: 30px;
+  background-image: linear-gradient(
+    to right,
+    orange,
+    white,
+    rgba(245, 181, 62, 0.582)
+  );
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.calculate-button:hover {
+  background-image: linear-gradient(to right, lightblue, white, blue);
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  opacity: 0.3;
+}
+
+.tab button {
+  background: inherit;
+  float: inline-start;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  width: 50%;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+body {
+  text-align: center;
+}
+
+table,
+form {
+  width: 350px;
+}
+
+form,
+input {
+  display: inline-block;
+}
+
+label {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+form {
+  border: 2px groove grey;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.808);
+}
+
+img {
+  position: absolute;
+  left: 20;
+  opacity: 0.3;
+  top: 100px;
+}
