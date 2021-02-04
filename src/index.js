@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import logo from "./caduceus-icon.png";
+import logo from "./rod-of-asclepius.png";
 
 function BodyMassIndexTable() {
   return (
@@ -231,7 +231,7 @@ class BodyMassIndexCalculator extends React.Component {
   render() {
     return (
       <div>
-        <img src={logo} alt="" width="200" />
+        <img src={logo} alt="" />
         <h1>Calculate Your Body Mass Index</h1>
         {this.renderForm()}
         <BodyMassIndexTable />
