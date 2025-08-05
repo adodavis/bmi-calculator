@@ -14,4 +14,4 @@ This is a simple web-based BMI (Body Mass Index) calculator built with React. Us
 
 # Live Demo
 
-[Link Text](https://adodavis.github.io/bmi-calculator)
+Check out the live app [here](https://adodavis.github.io/bmi-calculator)
